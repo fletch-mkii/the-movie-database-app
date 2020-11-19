@@ -1,0 +1,37 @@
+.MovieCard {
+  align-items: center;
+  background: #999;
+  box-shadow: 2px 2px 3px 1px #000;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 8px;
+  width: 250px;
+}
+
+.MovieCard__posterWrapper {
+  height: 375px;
+  z-index: 2;
+}
+
+.MovieCard__poster {
+  height: 375px;
+  object-fit: cover;
+}
+
+.MovieCard__infoSection {
+  align-items: center;
+  background: #ddd;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+  width: calc(100% - 30px);
+}
+
+.MovieCard__title {
+  font-size: 19px;
+  color: #000;
+  margin: 0;
+}

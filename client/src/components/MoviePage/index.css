@@ -1,0 +1,72 @@
+.MoviePage {
+  height: 100%;
+  min-height: 100vh;
+}
+
+.MoviePage__banner {
+  align-items: center;
+  background: #999;
+  box-shadow: 2px 2px 3px 1px #000;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.MoviePage__bannerImage {
+  height: 300px;
+  object-fit: cover;
+}
+
+.MoviePage__bannerTitle {
+  bottom: 20px;
+  left: 0;
+  margin: 10px 20px;
+  position: absolute;
+  text-shadow: 2px 2px #000
+}
+
+.MoviePage__bannerTagline {
+  bottom: -4px;
+  left: 20px;
+  margin: 10px 20px;
+  position: absolute;
+  text-shadow: 2px 2px #000
+}
+
+.MoviePage__infoSection {
+  background: #444;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.MoviePage__genreWrapper {
+  align-items: center;
+  display: flex;
+  height: 25px;
+  margin: 3px 0;
+}
+
+.MoviePage__genreTitle {
+  margin: 0 4px;
+}
+
+.MoviePage__genreList {
+  display: flex;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.MoviePage__genre {
+  border: 2px solid #fff;
+  font-size: 12px;
+  margin: 0 5px;
+  padding: 3px;
+}
+
+.MoviePage__summarySection {
+  margin: 0 40px;
+}

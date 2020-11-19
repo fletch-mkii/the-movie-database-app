@@ -1,0 +1,26 @@
+type Query {
+   movie(id: ID!): Movie
+   movies: [Movie]
+   searchMovies(query: String): [Movie]
+   configuration: Configuration!
+}
+
+type Movie {
+    id: ID!
+    title: String!
+    overview: String
+    posterPath: String
+    backdropPath: String
+    originalLanguage: String
+    releaseDate: Int
+    runtime: Int
+    tagline: String
+    voteAverage: Int
+    genres: [String]
+}
+
+type Configuration {
+    baseUrl: String
+    posterSizes: [String]
+    backdropSizes: [String]
+}

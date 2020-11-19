@@ -1,0 +1,15 @@
+.InfoItem {
+  align-items: center;
+  display: flex;
+  height: 25px;
+  margin: 3px 0;
+}
+
+.InfoItem__title,
+.InfoItem__details {
+  margin: 0 4px;
+}
+
+.InfoItem__details {
+  font-size: 12px;
+}

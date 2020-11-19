@@ -1,0 +1,15 @@
+{
+  "name": "lattice-movies-app-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.9.5",
+    "apollo-server": "^2.19.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.4.0"
+  },
+  "scripts": {
+    "start": "node config/index.js"
+  }
+}

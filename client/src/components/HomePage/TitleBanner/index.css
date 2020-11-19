@@ -1,0 +1,13 @@
+.TitleBanner {
+  background: #333;
+  box-shadow: 1px 1px 2px 1px #000;
+  display: flex;
+  flex: 1;
+  height: 70px;
+  padding: 0 2%;
+}
+
+.TitleBanner__title {
+  border-bottom: 2px solid #fff;
+  font-size: 19px;
+}
